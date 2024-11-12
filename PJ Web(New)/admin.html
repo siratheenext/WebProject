@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>ChickNext's Ken</h2>
+        <ul>
+            <li id="active"><a href="/admin.html"><img src="/img/Administrator Male.png" class="img img-admin">   Admin</a></li>
+            <li><a href="/menu.html"><img src="/img/Poultry Leg.png" class="img img-menu">   Menu</a></li>
+            <li><a href="/promotion.html"><img src="/img/Discount.png" class="img img-promo"> Promotion</a></li>
+            <li><a href="/user.html"><img src="/img/User.png" class="img img-user">  User</a></li>
+            <li id="logout"><a href="#"><img src="/img/Log out.png" class="img img-logout">  Logout</a></li>
+        </ul>
+    </div>
+    <div class="main_content">
+        <div class="top-bar">
+            <input type="text" placeholder="Search">
+        </div>
+        <h1 class="page-name">Admin</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="avatar">CNK001</span></td>
+                    <td>Lookchub</td>
+                    <td>hksuza@gmail.com</td>
+                    <td>0908817644</td>
+                    <td>
+                        <button class="toggle active">✔</button>
+                        <button class="edit">✏️</button>
+                        <button class="delete">❌</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
