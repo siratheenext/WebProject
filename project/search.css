@@ -1,0 +1,128 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    color:#F9E8CF;
+}
+#sb {
+    background-color:#F9E8CF;
+    border-width: 0px;
+    width:90%;
+    height: 20px;
+    margin-top: 0.5px;
+    display:inline-block; 
+    text-align: center;
+
+}
+body {
+    background-color: #121212;
+    padding: 50px;
+}
+.first {
+    background-color: #F9E8CF;
+    border-radius: 10px;
+    border-width: 0px;
+    height: 30px;
+    width:50%; 
+    justify-self: center; 
+ }
+.searchicon{
+    color: #F9E8CF;
+}
+.searchbutton{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    
+}
+.searchlist{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: right;
+}
+.sec {
+    background-color: #F9E8CF;
+    border-radius: 10px;
+    border-width: 0px;
+    height: 150px;
+    width:50%; 
+    justify-self: center; 
+    padding-top: 20px ;
+    padding-bottom: 10px;
+ }
+ #cat{
+    background-color:#C60C00;
+    color:#F9E8CF;
+    font-size: 19px;
+    border-radius: 7px;
+ }
+ label{
+    font-size: 20px;
+    color:black;
+ }
+#subsearch{
+    color:#F9E8CF;
+    background-color:#C60C00;
+    border-width: 0px;
+    border-radius: 20px;
+    padding-block: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    justify-self: center;
+}
+.header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d80000; 
+    padding: 10px 20px;
+    }
+      
+.logo {
+        font-size: 20px;
+        font-weight: bold;
+        color: #f7e4c6;
+}
+    
+.navbar a {
+    margin: 0 10px;
+    color: #f7e4c6;
+    text-decoration: none;
+}
+    
+.header-right {
+    display: flex;
+    align-items: center;
+}
+    
+.search-icon img {
+    width: 24px; 
+    height: 24px;
+    margin-right: 10px; 
+    cursor: pointer;
+}
+    
+.sign-in {
+    padding: 10px 20px;
+    background-color: #f7e4c6; 
+    color: #d80000; 
+    border: 2px solid #f7e4c6; 
+    border-radius: 30px; 
+    font-weight: bold;
+    font-size: 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sign-in:hover {
+    background-color: #d80000; 
+    color: #f7e4c6; 
+}
