@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slide Navbar</title>
+	<link rel="stylesheet" href="LoginPage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">CHICKNEXT'S KEN</div>
+        <nav class="navbar">
+          <a href="#menu">MENU</a>
+          <a href="#promotion">PROMOTION</a>
+          <a href="AboutusPage.html">ABOUT US</a>
+          <a href="search.html" class="search-icon">
+        </nav>
+        <div class="header-right">
+            <a href="search.html" class="search-icon">
+                <img src="Search.png" alt="Search" />
+            </a>
+        <a href="LoginPage.html"><button class="sign-in">SIGN-IN</button></a>
+    </header>
+
+    <div class="login">
+        <form action="/form-submit" method="POST">
+            <label for="chk" aria-hidden="true">Administrator</label>
+            <input type="text" name="username" placeholder="User name" required="">
+            <input type="password" name="pswd" placeholder="Password" required="">
+            <button id="log-in">Login</button>
+        </form>
+    </div>
+
+    <!-- <script>
+        document.getElementsByClassName('login').addEventListener('log-in', function(e) {
+            e.prevenDefault();
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('pswd').value;
+
+            fatch('http://localhost:3030/form-submit', {
+                method: 'POST',
+                Headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    username: username,
+                    password: password
+                })
+            })
+            .then(Response => Response.text())
+            .then(data => {
+                if(data === 'Login Successful'){
+                    alert('Login Successful');
+                    window.location.href = '';
+                }
+                else{
+                    alert('Invalid username or password')
+                }
+            })
+            .catch(error => {
+            console.erroe('Error : ',error);
+            alert('Error Login');
+        });
+    })
+        
+    </script> -->
+
+</body>
+</html>
