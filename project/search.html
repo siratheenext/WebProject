@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>search</title>
+    <link rel="stylesheet" href="search.css" />
+</head>
+
+<body>
+    <!-- nav bar -->
+    <header class="header">
+        <div class="logo">CHICKNEXT'S KEN</div>
+        <nav class="navbar">
+            <a href="#menu">MENU</a>
+            <a href="#promotion">PROMOTION</a>
+            <a href="#about us">ABOUT US</a>
+            <a href="search.html" class="search-icon">
+        </nav>
+        <div class="header-right">
+            <a href="search.html" class="search-icon">
+                <img src="ค้นหา.png" alt="Search" />
+            </a>
+            <button class="sign-in">SIGN-IN</button>
+        </div>
+    </header>
+
+    <!-- search bar -->
+    <h1>SEARCH</h1>
+    <div class='menusearch'>
+        <form>
+            <fieldset class="first">
+                <input class='searchbutton' src='Search.png' type='image' alt='Search Button'/>
+                <input class='searchbox' id='sb' name='sb' type='text' >
+                <input class='searchlist' src='Slider.png' type='image' alt='Filter Options'>
+            </fieldset>  
+        </form>
+    </div><br>
+
+    <!-- search criteria -->
+    <div class='dropsearch'>
+        <fieldset class="sec">
+            <label for="cat" class="cpp">CATEGORY:</label>
+            <select name="cat" id="cat">
+                <option value="chick">CHICKEN</option>
+                <option value="snack">SNACK & DESSERT</option>
+                <option value="top">TOPPING</option>
+                <option value="drink">DRINKS</option>
+            </select><br><br>
+    
+            <label for="pri" class="cpp">PRICE: </label>
+            <input type="range" id="price-range" min="0" max="2000" step="50" value="500" oninput="updatePriceValue(this.value)">
+            <span id="price-value">500฿</span><br><br>
+    
+            <label for="pro" class="cpp">PROMOTION:</label>
+            <input type="checkbox" id="pro" name="pro"><br>
+    
+            <button type="submit" id="subsearch">SEARCH</button>
+        </fieldset>  
+    </div>
+
+    <script>
+        document.querySelector('.searchlist').addEventListener('click', () => {
+        const dropsearch = document.querySelector('.dropsearch');
+        dropsearch.classList.toggle('open'); // Toggle the 'open' class to trigger the sliding effect
+});
+
+
+        function updatePriceValue(value) {
+            const pricevalueSpan = document.getElementById('price-value');
+            pricevalueSpan.textContent = value + "฿";
+        }
+    </script>
+
+    <main></main>
+</body>
+
+</html>
