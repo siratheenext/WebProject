@@ -1,0 +1,17 @@
+{
+  "name": "project_web",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4",
+    "nodemon": "^3.1.7"
+  }
+}
