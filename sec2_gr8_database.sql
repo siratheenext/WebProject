@@ -50,8 +50,8 @@ insert into product (foodname, detail, price, category, image) values
 ("Beer", "มาเมากันเถอะจ้ะ", 127, "Chicken", "1732883961856-1018.png_860-removebg-preview.png"),
 ("Water", "It TiME tO dRinK wAteR", 500, "Drink", "1732884031747-pngtree-water-bottle-png-image_13275849-removebg-preview.png"),
 ("Coca-Cola", "ดื่มเเทนน้ำเปล่าได้เลย", 10, "Drink", "1732884115033-pngtree-drink-recipes-png-image_13442920-removebg-preview.png"),
-("Thai Tod", "Todd Yang rai", 202, "Topping", "1732884250682-che_sss.jpg"),
-("Baby Chicken", "เป็นลูกของ Happy Chicken", 199, "Topping", "1732884311225-snack_nut_sa_ket-removebg-preview.png");
+("Thai Tod", "Todd Yang rai", 202, "Snack&Desserts", "1732884250682-che_sss.jpg"),
+("Baby Chicken", "เป็นลูกของ Happy Chicken", 199, "Snack&Desserts", "1732884311225-snack_nut_sa_ket-removebg-preview.png");
 
 
 
